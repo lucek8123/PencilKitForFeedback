@@ -11,6 +11,8 @@
 		23169E3F28D4C7800013D89A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23169E3E28D4C7800013D89A /* ContentView.swift */; };
 		23169E4128D4C7840013D89A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23169E4028D4C7840013D89A /* Assets.xcassets */; };
 		23169E4428D4C7840013D89A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23169E4328D4C7840013D89A /* Preview Assets.xcassets */; };
+		23169E4B28D4C7BC0013D89A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23169E4A28D4C7BC0013D89A /* ViewController.swift */; };
+		23169E4D28D4C8680013D89A /* UIViewControllerRepresentableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23169E4C28D4C8680013D89A /* UIViewControllerRepresentableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		23169E3E28D4C7800013D89A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23169E4028D4C7840013D89A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23169E4328D4C7840013D89A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23169E4A28D4C7BC0013D89A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23169E4C28D4C8680013D89A /* UIViewControllerRepresentableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				23169E3C28D4C7800013D89A /* PencilKitForFeedbackApp.swift */,
 				23169E3E28D4C7800013D89A /* ContentView.swift */,
+				23169E4A28D4C7BC0013D89A /* ViewController.swift */,
+				23169E4C28D4C8680013D89A /* UIViewControllerRepresentableView.swift */,
 				23169E4028D4C7840013D89A /* Assets.xcassets */,
 				23169E4228D4C7840013D89A /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23169E4B28D4C7BC0013D89A /* ViewController.swift in Sources */,
+				23169E4D28D4C8680013D89A /* UIViewControllerRepresentableView.swift in Sources */,
 				23169E3F28D4C7800013D89A /* ContentView.swift in Sources */,
 				23169E3D28D4C7800013D89A /* PencilKitForFeedbackApp.swift in Sources */,
 			);
@@ -275,6 +283,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,9 +291,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "pl.dexus.test-lucek.PencilKitForFeedback";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -304,6 +316,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,9 +324,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "pl.dexus.test-lucek.PencilKitForFeedback";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
